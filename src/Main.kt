@@ -1,32 +1,70 @@
-open class Shape(val name: String) {
-    open fun calculatorArea(): Int {
-        return 0
+open class Shape {
+    open fun calculatorArea() {
+        println("default shape")
     }
 }
 
 
-class Rectangle(name: String, val w: Int, val h: Int) : Shape(name) {
+class Rectangle(val name: String, val w: Int, val h: Int) : Shape() {
 
-    override fun calculatorArea(): Int {
-        return w * h
+    override fun calculatorArea() {
+
+        println("|    $name area is ${w * h }    |")
     }
 }
 
 
-class Circle(name: String, val r : Int) : Shape(name){
-    override fun calculatorArea(): Int {
-        return (Math.PI * r * r).toInt()
+class Circle(val name: String, val r: Int) : Shape() {
+    override fun calculatorArea()
+    {
+
+
+        println("|    $name area is ${(Math.PI * r * r).toInt()}    |")
     }
 }
 
-class Triangle(name: String, val b : Int, val h: Int) : Shape(name){
-    override fun calculatorArea(): Int {
-        return (0.5 * b * h).toInt()
+class Triangle(val name: String, val b: Int, val h: Int) : Shape() {
+    override fun calculatorArea() {
+
+        println("|    $name area is ${(0.5 * b * h).toInt()}    |")
     }
 }
 
 fun main() {
 
 
+    val rectangle = Rectangle("Rectangle", 6, 7)
+
+    val circle = Circle("Circle", 8)
+
+    val triangle = Triangle("Triangle", 6, 9)
+
+
+
+
+//    println("|-------------------------------------------------------|")
+//    println("|                                                       |")
+//    println("|                                                       |")
+//    println("|    Rectangle area is ${rectangle.calculatorArea()}    |")
+//    println("|    Circle area is ${circle.calculatorArea()}          |")
+//    println("|    Triangle area is ${triangle.calculatorArea()}      |")
+//    println("|                                                       |")
+//    println("|                                                       |")
+//    println("|-------------------------------------------------------|")
+
+    println("|-------------------------------------------------------|")
+    println("|                                                       |")
+    println("|                                                       |")
+      Rectangle("Rectangle", 6, 7).calculatorArea()
+
+     Circle("Circle", 8).calculatorArea()
+
+     Triangle("Triangle", 6, 9).calculatorArea()
+
+    println("|                                                       |")
+    println("|                                                       |")
+    println("|-------------------------------------------------------|")
 }
+
+
 
