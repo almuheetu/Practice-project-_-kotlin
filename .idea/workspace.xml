@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b42d7210-3c3c-4095-b274-ac242151b9f0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Area calculator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Area calculator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Area calculator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AreaCalculator.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
