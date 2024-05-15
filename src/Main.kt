@@ -42,15 +42,6 @@ fun main() {
 
 
 
-//    println("|-------------------------------------------------------|")
-//    println("|                                                       |")
-//    println("|                                                       |")
-//    println("|    Rectangle area is ${rectangle.calculatorArea()}    |")
-//    println("|    Circle area is ${circle.calculatorArea()}          |")
-//    println("|    Triangle area is ${triangle.calculatorArea()}      |")
-//    println("|                                                       |")
-//    println("|                                                       |")
-//    println("|-------------------------------------------------------|")
 
     println("|-------------------------------------------------------|")
     println("|                                                       |")
